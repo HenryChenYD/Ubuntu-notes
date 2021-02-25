@@ -10,8 +10,9 @@
 
 ```
 cd /etc/init.d
-sudo update-rc.d 脚本文件名 defaults XX # XX 为数字，表示启动顺序，一般来说设为99即可
+sudo update-rc.d 脚本文件名 defaults XX
 ```
+* XX 为数字，表示启动顺序，一般来说设为99即可
 
 #### 移除服务
 ```
